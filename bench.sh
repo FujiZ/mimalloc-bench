@@ -650,9 +650,9 @@ if test "$run_mleak" = "1"; then
 fi
 
 if test "$run_rptest" = "1"; then
-  run_test "rptestN" "./rptest $procs16 0 2 2 500 1000 200 8 64000"
-  # run_test "rptestN" "./rptest $procs16 0 1 2 1000 1000 500 8 64000"
-  # run_test "rptestN" "./rptest $procs16 0 2 2 500 1000 200 16 1600000"
+  run_test "rptestN" "./rptest $procs 0 2 2 500 1000 200 8 64000"
+  # run_test "rptestN" "./rptest $procs 0 1 2 1000 1000 500 8 64000"
+  # run_test "rptestN" "./rptest $procs 0 2 2 500 1000 200 16 1600000"
 fi
 
 if test "$run_spec" = "1"; then

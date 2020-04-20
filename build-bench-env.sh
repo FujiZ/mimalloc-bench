@@ -11,7 +11,7 @@ all=0
 version_je=5.2.1
 version_tc=gperftools-2.7
 version_sn=0.3
-version_mi=v1.4.0
+version_mi=zrpc
 version_rp=1.4.0
 version_hd=9d137ef37
 version_sm=709663f
@@ -336,7 +336,7 @@ if test "$setup_sc" = "1"; then
 fi
 
 if test "$setup_mi" = "1"; then
-  checkout mi $version_mi mimalloc https://github.com/microsoft/mimalloc
+  checkout mi $version_mi mimalloc https://github.com/FujiZ/mimalloc
 
   echo ""
   echo "- build mimalloc release"
